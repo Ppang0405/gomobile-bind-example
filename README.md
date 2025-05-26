@@ -13,8 +13,10 @@ gomobile-bind-example
 # Android
 ## Build library
 - build Android library by following command 
+issue:  https://stackoverflow.com/questions/75671126/gomobile-bind-gomobile-android-ndk-home-specifies-android-sdk-ndk-25-2-9519#77686965
 ```shellscript
-cd hello; gomobile bind -target=android
+cd hello; gomobile bind -target=android -androidapi 21 
+
 ```
 - Copy the Hello.xcframework you built to ios project 
 ```shellscript
