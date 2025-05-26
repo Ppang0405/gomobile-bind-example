@@ -41,6 +41,8 @@ rm -rf ../ios/Hello.xcframework;
 mv Hello.xcframework ../ios/Hello.framework
 ```
 
+note: Idk why Xcode reference to hello/Hello.xcframework instead of copied version inside ios folder, dont run 'rm -rf' and 'mv' command above and Xcode will build successfully.
+
 - Clean iOS project 
 ![](./README/clean_folder.png)
 - Re-build iOS project 
